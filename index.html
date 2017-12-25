@@ -1,1 +1,13 @@
 
+$(".check").click(function(){
+  if($(this).hasClass("black")){
+    $(this).removeClass("black");
+    $(this).addClass("normal");
+  }else if($(this).hasClass("normal"));
+    $(this).removeClass("normal");
+    $(this).addClass("black");
+  }
+})
+$(".checkbox,.check").dbclick(function () {
+    return false;
+})
